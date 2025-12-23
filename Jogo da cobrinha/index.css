@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    background-color: #000;
+    border: 2px solid #eee;
+}
+
+#score {
+    margin: 20px;
+    font-size: 18px;
+}
+
+#restartButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+#restartButton:hover {
+    background-color: #45a049;
+}
